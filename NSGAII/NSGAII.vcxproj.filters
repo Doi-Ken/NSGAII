@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Toolkit">
+      <UniqueIdentifier>{d3572de8-1f7d-4f58-be4d-26b30c0f2900}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Toolkit\ExampleProblems.cpp">
+      <Filter>ソース ファイル\Toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="Toolkit\ExampleShapes.cpp">
+      <Filter>ソース ファイル\Toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="Toolkit\ExampleTransitions.cpp">
+      <Filter>ソース ファイル\Toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="Toolkit\FrameworkFunctions.cpp">
+      <Filter>ソース ファイル\Toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="Toolkit\Misc.cpp">
+      <Filter>ソース ファイル\Toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="Toolkit\ShapeFunctions.cpp">
+      <Filter>ソース ファイル\Toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="Toolkit\TransFunctions.cpp">
+      <Filter>ソース ファイル\Toolkit</Filter>
+    </ClCompile>
+    <ClCompile Include="MT.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Toolkit\ExampleProblems.h">
+      <Filter>ソース ファイル\Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="Toolkit\ExampleShapes.h">
+      <Filter>ソース ファイル\Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="Toolkit\ExampleTransitions.h">
+      <Filter>ソース ファイル\Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="Toolkit\FrameworkFunctions.h">
+      <Filter>ソース ファイル\Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="Toolkit\Misc.h">
+      <Filter>ソース ファイル\Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="Toolkit\ShapeFunctions.h">
+      <Filter>ソース ファイル\Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="Toolkit\TransFunctions.h">
+      <Filter>ソース ファイル\Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="knapsack.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="wfg.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="MT.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
